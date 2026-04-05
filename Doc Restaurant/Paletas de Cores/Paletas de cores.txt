@@ -1,0 +1,7 @@
+Paleta de cores
+No desenvolvimento do projeto deve ser utilizada a seguinte paleta de cores:
+
+#daa520
+#f3f3f3
+#000000
+#fff
