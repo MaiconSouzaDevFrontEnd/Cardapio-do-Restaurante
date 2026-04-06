@@ -1,0 +1,38 @@
+Veja abaixo o código do Reset CSS:
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+Código 1: Reset CSS
+
+Você pode importar as fontes Poppins e Dancing Script diretamente do site Google Fonts, usando o link abaixo:
+
+https://fonts.google.com/specimen/Poppins https://fonts.google.com/specimen/Dancing+Script
+
+Veja no Flow a seguir mais detalhes sobre como importar e aplicar as fontes no projeto.
+
+Veja abaixo os códigos apresentados no Flow anterior:
+
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+Código 2: Fonte Poppins aplicada no arquivo globals.css
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.topo div p {
+  color: goldenrod;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+}
+
+Código 3: Fonte Dancing Script aplicada no arquivo page.module.css

@@ -1,0 +1,21 @@
+1 - Componente Home
+O componente Tpo será dividido em duas partes: o cabeçalho e o conteúdo principal. Veja agora as dimensões do cabeçalho:
+
+O cabeçalho (<header>) deve ocupar uma largura total de 1024px.
+
+O conteúdo principal (<main>) deve ter um espaçamento interno de 50px 20px.
+
+2 - Componente Categorias
+O componente Categorias deve ocupar uma largura máxima de 1024px e seus elementos devem ser espaçados entre si em 10px.
+
+O componente CampoDeBusca deve ocupar uma largura máxima de 1024px.
+
+4 - Componente Card
+O componente Card deve ter uma largura de 250px.
+
+5 - Elementos centralizados
+Todos os elementos exibidos nas páginas devem estar centralizados.
+
+6 - Responsividade
+A página do projeto deve se adaptar a diferentes resoluções de tela.
+
