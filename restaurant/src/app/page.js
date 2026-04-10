@@ -16,9 +16,18 @@ export default function Home() {
           <section className={styles.categorias}>
 
           </section>
-            
+          <section className={styles.campoDeBusca}>
+
+          </section>  
+          <section className={styles.sectionCards}>
+            <h2 className={styles.titleCards}>Nossos pratos</h2>
+            <div className={styles.containerCards}>
+              
+            </div>
+          </section>
         </main>
       </main>
     </div>
+
   );
 }
