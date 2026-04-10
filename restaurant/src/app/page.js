@@ -18,7 +18,7 @@ export default function Home() {
           </section>
         </header>
 
-        <main className={styles.content}>
+        <main className={styles.mainContent}>
           <section className={styles.categorias}>
 
           </section>
@@ -26,9 +26,9 @@ export default function Home() {
 
           </section>  
           <section className={styles.sectionCards}>
-            <h2 className={styles.titleCards}>Nossos pratos</h2>
+            <h2 className={styles.titleCards}>Cardápio</h2>
             <div className={styles.containerCards}>
-              
+
             </div>
           </section>
         </main>
