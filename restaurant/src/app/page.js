@@ -19,13 +19,22 @@ export default function Home() {
         </header>
 
         <main className={styles.mainContent}>
+          
           <section className={styles.categorias}>
+
+            <button className={styles.buttonCategorias}>Entradas</button>
+            <button className={styles.buttonCategorias}>Massas</button>
+            <button className={styles.buttonCategorias}>Carnes</button>
+            <button className={styles.buttonCategorias}>Bebidas</button>
+            <button className={styles.buttonCategorias}>Saladas</button>
+            <button className={styles.buttonCategorias}>Sobremesas</button>
 
           </section>
           <section className={styles.campoDeBusca}>
 
           </section>  
           <section className={styles.sectionCards}>
+
             <h2 className={styles.titleCards}>Cardápio</h2>
             <div className={styles.containerCards}>
 
