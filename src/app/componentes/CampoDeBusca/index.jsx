@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import estilos from "./CampoDeBusca.module.css";
-const Lupa = "/lupa.png";
+const Lupa = "/public/lupa.png";
 
 export default function CampoDeBusca({ textoBuscaDigitado, handleBusca }) {
   return (

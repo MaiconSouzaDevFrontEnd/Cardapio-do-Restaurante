@@ -61,7 +61,7 @@ import Cards from './componentes/Cards';
 import Categorias from './componentes/Categorias';
 import CampoDeBusca from './componentes/CampoDeBusca';
 
-const Banner = "/banner.png";
+const Banner = "../public/banner.png";
 
 export default function Home() {
 
