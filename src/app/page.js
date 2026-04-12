@@ -34,7 +34,7 @@ export default function Home() {
 
         <section className={styles.campoDeBusca}>
           <figure className={styles.iconBusca}>
-            <Image src="./public/lupa.png" alt="Ícone de busca" width={20} height={20}/>
+            <Image src="/lupa.png" alt="Ícone de busca" width={20} height={20}/>
           </figure>
 
           <input className={styles.inputBusca} type="text" placeholder="Buscar..." />
@@ -61,7 +61,7 @@ import Cards from './componentes/Cards';
 import Categorias from './componentes/Categorias';
 import CampoDeBusca from './componentes/CampoDeBusca';
 
-const Banner = "../public/banner.png";
+import Banner from "@/../public/banner.png";
 
 export default function Home() {
 
@@ -82,7 +82,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <main className={estilos.page}>
       <header className={estilos.topo}>
         <Image src={Banner} alt="banner" />
         <div>
@@ -113,6 +113,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </>
+    </main>
   )
 }

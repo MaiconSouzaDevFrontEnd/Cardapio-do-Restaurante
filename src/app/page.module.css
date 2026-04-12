@@ -26,9 +26,10 @@
  */
  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-
+.page{
+  max-width:1024px ;
+}
 .topo {
-  max-width: 1024px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -73,7 +74,6 @@
 
 .secao_cards {
   width: 100%;
-  max-width: 1024px;
   display: flex;
   flex-direction: column;
   gap: 10px;
