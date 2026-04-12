@@ -4,9 +4,11 @@ import estilos from "./Card.module.css";
 export default function Cards({ produto }) {
   return (
     <div className={estilos.container}>
+
       <figure>
-        <Image src={produto.imagem} alt={produto.nome} />
+        <Image src={produto.imagem} className={estilos.img} alt={produto.nome} /> 
       </figure>
+
       <div className={estilos.container_informacoes}>
         <div>
           <h3>{produto.nome}</h3>

@@ -96,11 +96,11 @@
   gap: 40px;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .topo div p {
     font-size: 28px;
   }
-}
+} */
 
 @media (max-width: 768px) {
   .topo div {
