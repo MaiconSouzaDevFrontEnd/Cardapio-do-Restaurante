@@ -108,7 +108,7 @@ export default function Home() {
           <h2>Cardápio</h2>
           <div className={estilos.container_cards}>
             {dadosFiltrados.map((produto) => (
-              <Cards key={produto.id} produto={produto} />
+              <Cards key={produto.id} produto={produto}  />
             ))}
           </div>
         </section>
