@@ -32,7 +32,6 @@
 }
 .topo {
   width: 100%;
-  margin: 0 auto;
   position: relative;
   display: flex;
   align-items: center;
@@ -47,8 +46,6 @@
 .topo div {
   max-width: 50%;
   position: absolute;
-  display: flex;
-  flex-direction: column;
   color: #fff;
   text-align: center;
 }
