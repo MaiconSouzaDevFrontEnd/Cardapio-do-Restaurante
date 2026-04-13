@@ -46,6 +46,7 @@
 .topo div {
   max-width: 50%;
   position: absolute;
+  bottom: 15%;
   color: #fff;
   text-align: center;
 }
